@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   root 'pages#homepage'#this is our default homepage
 
   get 'about', to: 'pages#about'#so we just type 'about' in url and goes to that page
+  
+  resources :articles
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
