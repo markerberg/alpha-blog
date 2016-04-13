@@ -5,7 +5,7 @@
     <link rel = "stylesheet" type = "text/css" href = "home.css">
   </head>
 <body>
-  <%= image_tag 'ny.jpg' %>
+  <%= image_tag('ny.jpg', size: "800x500", alt: "NYC") %>
   <h1>Pages#homepage</h1>
   <table>
     <tr>
@@ -29,6 +29,7 @@
   </table>
   <p>Find me in app/views/pages/homepage.html.erb</p>
   <%= link_to 'about', about_path %>
+  <%= link_to 'Alpha Blog', articles_path %>
 </body>
 </html>
 
