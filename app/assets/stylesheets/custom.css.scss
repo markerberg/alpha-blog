@@ -1,2 +1,77 @@
+$navbar-default-bg: black;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body{
+  background: #cccccc;
+}
+
+table{
+  border-style: solid;
+  background-color: white;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('ny.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h1{
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.btn-xlarge{
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  color: yellow;
+}
+.btn-xlarge:hover {
+  color: white;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 15px;
+  border-top: 1px solid black;
+  color: #777;
+}
+
+footer a:hover{
+  color: red;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float:left; //when adding new li, it will append from left instead of going on bottom
+  margin-left: 5px; //to add spacing, words were sticking together
+}
