@@ -51,6 +51,31 @@ display: block;
   color: white;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#art-ti {
+  color: navy;
+}
+
+.article-body {
+  border-top: 1px solid green;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted green;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 15px;
